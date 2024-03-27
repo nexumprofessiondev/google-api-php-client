@@ -5,6 +5,12 @@
     "keywords": ["google"],
     "homepage": "http://developers.google.com/api-client-library/php",
     "license": "Apache-2.0",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nexumprofessiondev/google-api-php-client-services"
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0",
         "google/auth": "^1.33",
